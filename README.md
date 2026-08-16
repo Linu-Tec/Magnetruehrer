@@ -2,3 +2,31 @@
 Magnetrührer
 
 
+Designator,Footprint,Quantity,Value,LCSC Part #
+
+A1,Arduino_UNO_R2,1,Arduino_UNO_R2,
+
+A2, A3,Pololu_Breakout-16_15.2x20.3mm,2,Pololu_Breakout_DRV8825,
+
+C1, C2,CP_Radial_D8.0mm_P5.00mm,2,C_Polarized,
+
+J1, J5,PinHeader_1x04_P2.54mm_Vertical,2,Conn_01x04_Pin,
+
+J10,PinSocket_1x04_P2.54mm_Vertical,1,LCD,
+
+J11,PinHeader_1x02_P2.54mm_Vertical,1,Lüfter,
+
+J2, J3, J6, J7,PinHeader_1x03_P2.54mm_Vertical,4,Conn_01x03_Pin,
+
+J4,PinHeader_1x02_P2.54mm_Vertical,1,Power,
+
+J8,PinHeader_1x03_P2.54mm_Vertical,1,Poti,
+
+J9,PinHeader_1x02_P2.54mm_Vertical,1,Taster,
+
+U1,TO-220-3_Vertical,1,L7805,
+
+
+
+<img width="454" height="241" alt="image" src="https://github.com/user-attachments/assets/15a238d4-f65a-4210-aacf-2e9d11eedf8c" />
+
