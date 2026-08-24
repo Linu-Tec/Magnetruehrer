@@ -47,6 +47,42 @@ Hier findest du alle elektronischen Komponenten, die für den Aufbau der Platine
 > 💡 **Tipp:** Wenn du die Platine professionell fertigen lassen möchtest (z. B. bei JLCPCB), kannst du die Spalte `LCSC Part #` in deiner EDA-Software (z. B. KiCad) pflegen, um die Bauteile beim Bestellen direkt automatisch bestücken zu lassen (PCBA).
 
 
+### ⚙️ Microstepping-Konfiguration (Jumper J2, J3, J6, J7)
+
+Der Schrittmotortreiber DRV8825 unterstützt verschiedene Schrittauflösungen. Für eine flüssige Rotation des Magneten wird standardmäßig das **1/32-Stepping** empfohlen.
+
+| Auflösung | Jumper M0 (1) | Jumper M1 (2) | Jumper M2 (3) |
+| :--- | :---: | :---: | :---: |
+| Vollschritt (Full step) | LOW (off) | LOW (off) | LOW (off) |
+| Halbschritt (Half step) | HIGH (on) | LOW (off) | LOW (off) |
+| 1/4 Schritt | LOW (off) | HIGH (on) | LOW (off) |
+| 1/8 Schritt | HIGH (on) | HIGH (on) | LOW (off) |
+| 1/16 Schritt | LOW (off) | LOW (off) | HIGH (on) |
+| **1/32 Schritt (Empfohlen)** | **HIGH (on)** | **HIGH (on)** | **HIGH (on)** |
+
+
+## 🔩 Mechanische Komponenten & Zubehör
+
+| Komponente | Beschreibung | Menge | Detail / Abmessung |
+| :--- | :--- | :---: | :--- |
+| **Schrittmotor** | NEMA 17 Schrittmotor | 1 | 1.8° Schrittwinkel |
+| **Dauermagnete** | Neodym-Magnete (für den Rotor) | 2 | Block- oder Scheibenmagnete (z. B. N52) |
+| **3D-Druckteile** | Gehäusebasis, Deckel und Magnet-Halterung | 1 | Eigene STL-Dateien (siehe `/3d-prints`) |
+| **Rührfisch** | PTFE-beschichteter Magnet-Rührstab | 1 | Standardlänge (z. B. 25-30 mm) |
+| **Schrauben** | Befestigung für Motor und Gehäuse | 1 Satz| M3 / M4 Innensechskant |
+
+
+## 💻 Software-Installation
+
+1. Installiere die [Arduino IDE](https://arduino.cc).
+2. Installiere die benötigte Bibliothek über den Bibliotheksverwalter:
+   * `LiquidCrystal_I2C` (von Frank de Brabander).
+3. Öffne die Code-Datei im Ordner `/firmware`.
+4. Verbinde den Arduino UNO per USB-Kabel mit dem PC.
+5. Wähle das richtige Board (**Arduino Uno**) und den **COM-Port** aus.
+6. Klicke auf **Hochladen** (Upload).
+
+
 
 # Platine
 <img width="938" height="877" alt="Magnetrührer oben pcb" src="https://github.com/user-attachments/assets/2b822f4f-a9fa-4fd2-adc6-19ac2734e8f7" />
