@@ -13,6 +13,16 @@
 ## 🖼 Bild
 <img width="591" height="509" alt="Magnetrührer komplett" src="https://github.com/user-attachments/assets/70977960-3b56-4dfb-a4fd-13aa9e19de33" />
 
+
+## 📂 Repository-Struktur
+
+* `/firmware` - Enthält den Arduino-Quellcode (`.ino`).
+* `/hardware` - Schaltpläne, Platinenlayouts (KiCad-Projektdateien) und Gerber-Dateien.
+* `/3d-prints` - STL- oder STEP-Dateien für das Gehäuse.
+* `/assets` - Bilder und Grafiken für die Dokumentation.
+
+
+
 ## 🔌 Pin-Belegung (Arduino Uno)
 
 | Peripherie | Arduino Pin | Funktion |
