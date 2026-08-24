@@ -1,0 +1,29 @@
+# === Arduino IDE / PlatformIO ===
+# Temporäre Build-Ordner und Kompilate
+build/
+bin/
+*.elf
+*.hex
+*.o
+
+# === KiCad (Schaltplan & Layout) ===
+# Temporäre Dateien und Backups
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.kicad_prl
+*.lck
+
+# Lokale Einstellungen von KiCad (z.B. Fensterpositionen)
+fp-info-cache
+*.net
+*.i
+*.s
+
+# Gerber- und Bohrdaten (nur einbinden, wenn du sie nicht absichtlich teilen willst)
+# Viele Entwickler packen Gerber-Daten in einen extra Release-Ordner.
+# Gerbers/
+# *.gbr
+# *.drl
