@@ -26,33 +26,26 @@
 
 
 # Material
-Designator,Footprint,Quantity,Value,LCSC Part #
+## 📦 Stückliste (Bill of Materials)
 
-A1,Arduino_UNO_R2,1,Arduino_UNO_R2,
+Hier findest du alle elektronischen Komponenten, die für den Aufbau der Platine benötigt werden.
 
-A2, A3,Pololu_Breakout-16_15.2x20.3mm,2,Pololu_Breakout_DRV8825,
+| Status | Bauteil (Designator) | Beschreibung | Menge | Gehäuse / Footprint |
+| :---: | :--- | :--- | :---: | :--- |
+| 🧠 | **Arduino UNO (A1)** | Steuerzentrale (Mikrocontroller-Board) | 1 | `Arduino_UNO_R2` |
+| 🔌 | **DRV8825 (A2, A3)** | Schrittmotortreiber (Pololu-Breakout) | 2 | `Breakout-16_15.2x20.3mm` |
+| 🔋 | **L7805 (U1)** | 5V Linear-Spannungsregler | 1 | `TO-220-3_Vertical` |
+| ⚡ | **C_Polarized (C1, C2)**| Elektrolytkondensator (Stützkondensator) | 2 | `Radial_D8.0mm_P5.00mm` |
+| 📟 | **LCD-Connector (J10)**| Buchsenleiste für das I2C-Display | 1 | `PinSocket_1x04_P2.54mm_V` |
+| 🌀 | **Lüfter (J11)** | Stiftleiste für den Gehäuselüfter | 1 | `PinHeader_1x02_P2.54mm_V` |
+| ⚙️ | **Microstepping (J2,J3,J6,J7)**| Jumper-Stiftleisten für Schrittauflösung | 4 | `PinHeader_1x03_P2.54mm_V` |
+| 🏎️ | **Motor (J1, J5)** | Stiftleiste für Schrittmotor-Anschluss | 2 | `PinHeader_1x04_P2.54mm_V` |
+| 🔌 | **Power In (J4)** | Stiftleiste für die Stromversorgung | 1 | `PinHeader_1x02_P2.54mm_V` |
+| 🎛️ | **Poti (J8)** | Stiftleiste für Drehzahl-Potentiometer | 1 | `PinHeader_1x03_P2.54mm_V` |
+| 🔘 | **Taster (J9)** | Stiftleiste für Start/Stopp-Taster | 1 | `PinHeader_1x02_P2.54mm_V` |
 
-C1, C2,CP_Radial_D8.0mm_P5.00mm,2,C_Polarized,
+> 💡 **Tipp:** Wenn du die Platine professionell fertigen lassen möchtest (z. B. bei JLCPCB), kannst du die Spalte `LCSC Part #` in deiner EDA-Software (z. B. KiCad) pflegen, um die Bauteile beim Bestellen direkt automatisch bestücken zu lassen (PCBA).
 
-J1, J5,PinHeader_1x04_P2.54mm_Vertical,2,Conn_01x04_Pin,
-
-J10,PinSocket_1x04_P2.54mm_Vertical,1,LCD,
-
-J11,PinHeader_1x02_P2.54mm_Vertical,1,Lüfter,
-
-J2, J3, J6, J7,PinHeader_1x03_P2.54mm_Vertical,4,Conn_01x03_Pin,
-
-J4,PinHeader_1x02_P2.54mm_Vertical,1,Power,
-
-J8,PinHeader_1x03_P2.54mm_Vertical,1,Poti,
-
-J9,PinHeader_1x02_P2.54mm_Vertical,1,Taster,
-
-U1,TO-220-3_Vertical,1,L7805,
-
-
-
-<img width="454" height="241" alt="image" src="https://github.com/user-attachments/assets/15a238d4-f65a-4210-aacf-2e9d11eedf8c" />
 
 
 # Platine
