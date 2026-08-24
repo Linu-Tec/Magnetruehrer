@@ -1,7 +1,28 @@
 # Magnetrührer
-Magnetrührer
 
+## ✨ Features
+* **Präzise Steuerung**: Jitterfreie Schrittmotor-Ansteuerung über Hardware-Timer 1.
+* **Materialschonend**: Sanfter Anlauf und Abbremsen durch integrierte Beschleunigungsrampe.
+* **Flackerfreies Display**: Ressourcenschonende, blockierungsfreie LCD-Aktualisierung im Hintergrund.
+
+## 🚀 Bedienung
+1. Gewünschte Drehzahl über das **Potentiometer** vorwählen.
+2. Den **Taster** einmal kurz drücken, um den Rührvorgang zu starten. Die Drehzahl läuft automatisch rampenförmig an.
+3. Erneutes Drücken des Tasters stoppt den Motor sofort.
+
+## 🖼 Bild
 <img width="591" height="509" alt="Magnetrührer komplett" src="https://github.com/user-attachments/assets/70977960-3b56-4dfb-a4fd-13aa9e19de33" />
+
+## 🔌 Pin-Belegung (Arduino Uno)
+
+| Peripherie | Arduino Pin | Funktion |
+| :--- | :---: | :--- |
+| **Schrittmotor (STEP)** | D2 | Impulsausgabe für Drehzahl |
+| **Schrittmotor (DIR)** | D3 | Richtungssteuerung |
+| **Taster (Button)** | D4 | Start / Stopp (interner Pull-up) |
+| **Treiber (ENABLE)** | D5 | Aktivierung der Motortreiber |
+| **Potentiometer** | A0 | Analoge Drehzahleinstellung |
+
 
 
 # Material
