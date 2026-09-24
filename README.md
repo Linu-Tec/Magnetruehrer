@@ -95,8 +95,51 @@ Der Schrittmotortreiber DRV8825 unterstützt verschiedene Schrittauflösungen. F
 
 
 # Platine
+<img width="2304" height="468" alt="PCB logo_PNG" src="https://github.com/user-attachments/assets/d889c1ee-943e-44e2-a517-7ff98f8b145e" />
+
+## 🛠️ Platine bestellen (Anleitung für JLCPCB)
+
+Die benötigten Hardware- und Designdateien für das PCB befinden sich vollständig im Ordner `platine`. Um die Platine kostengünstig und schnell beim Hersteller **JLCPCB** fertigen zu lassen, folge einfach dieser Schritt-für-Schritt-Anleitung:
+
+### 1. Daten vorbereiten
+* Navigiere hier im GitHub-Repository in den Ordner `Platine`.
+* Lade den dort hinterlegten **Gerber-Ordner bzw. die fertige `.zip`-Datei** herunter (z. B. `Gerber_PCB.zip`). 
+* *Wichtig:* Die ZIP-Datei auf deinem Computer nicht entpacken, sie muss als komprimiertes Archiv hochgeladen werden!
+
+### 2. Upload bei JLCPCB
+* Öffne die Website von [JLCPCB](https://jlcpcb.com/?from=BTBNLQNBK).
+* Klicke direkt auf der Startseite auf den Button **"Add Gerber File"** oder **"Instant Quote"**.
+* Wähle die zuvor heruntergeladene **ZIP-Datei** aus dem Ordner `platine` aus.
+* Das System analysiert die Datei nun automatisch. Nach wenigen Sekunden erscheint eine visuelle Vorschau der Platinen-Vorderseite und -Rückseite.
+
+### 3. Empfohlene Einstellungen
+Die Standardwerte von JLCPCB sind für dieses DIY-Projekt bereits optimal vorausgewählt. Du solltest lediglich folgende Punkte kurz überprüfen:
+* **Base Material:** FR-4 (Standard)
+* **Layers:** (Wird automatisch erkannt, meist 2 Layer)
+* **PCB Qty (Menge):** 5 Stück (Das ist das günstigste Minimum)
+* **PCB Thickness (Dicke):** 1.6 mm
+* **PCB Color (Farbe):** Freie Wahl (Grün ist Standard, Schwarz, Blau oder Rot sehen oft moderner aus)
+* **Surface Finish:** *HASL(with lead)* für einfaches Löten zum günstigsten Preis, oder *LeadFree HASL* für eine bleifreie Variante.
+
+### 4. Bestellung abschließen
+* Scrolle nach unten und klicke auf den Button **"Save to Cart"**, um die Platinen in den Warenkorb zu legen.
+* Klicke im Warenkorb auf **"Secure Checkout"**.
+* Melde dich an oder erstelle ein kurzes Kundenkonto.
+* Gib deine Lieferadresse ein. 
+  * *Tipp für den Versand:* **Global Standard Shipping** ist sehr günstig, kümmert sich automatisch um die Zollabwicklung (IOSS) und dauert ca. 1–2 Wochen. Wer es eilig hat, wählt *DHL Express*.
+* Bezahle die Bestellung sicher via PayPal oder Kreditkarte. Nach der Produktion (meist 2–3 Tage) wird das Paket direkt zu dir nach Hause geschickt.
+
+
+
+## Ansicht von der Platine
+
+Oben (Top)
 <img width="938" height="877" alt="Magnetrührer oben pcb" src="https://github.com/user-attachments/assets/2b822f4f-a9fa-4fd2-adc6-19ac2734e8f7" />
+
+
+Unten (Bottom)
 <img width="942" height="884" alt="Magnetrührer unten pcb" src="https://github.com/user-attachments/assets/9451aca8-5a20-42de-ba81-dc7ef3c4a5d4" />
+
 
 # Schaltplan
 <img width="1327" height="827" alt="Schaltplan groß" src="https://github.com/user-attachments/assets/351a961d-b002-4349-afd0-a5947cd453b0" />
