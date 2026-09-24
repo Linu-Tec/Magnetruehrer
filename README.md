@@ -115,9 +115,8 @@ Die benötigten Hardware- und Designdateien für das PCB befinden sich vollstän
 ### 3. Empfohlene Einstellungen
 Die Standardwerte von JLCPCB sind für dieses DIY-Projekt bereits optimal vorausgewählt. Du solltest lediglich folgende Punkte kurz überprüfen:
 * **Base Material:** FR-4 (Standard)
-* **Layers:** (Wird automatisch erkannt, meist 2 Layer)
+* **Layers:** (2 Layer)
 * **PCB Qty (Menge):** 5 Stück (Das ist das günstigste Minimum)
-* **PCB Thickness (Dicke):** 1.6 mm
 * **PCB Color (Farbe):** Freie Wahl (Grün ist Standard, Schwarz, Blau oder Rot sehen oft moderner aus)
 * **Surface Finish:** *HASL(with lead)* für einfaches Löten zum günstigsten Preis, oder *LeadFree HASL* für eine bleifreie Variante.
 
