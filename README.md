@@ -18,7 +18,7 @@
 
 * `/firmware` - Enthält den Arduino-Quellcode (`.ino`).
 * `/hardware` - Schaltpläne, Platinenlayouts (KiCad-Projektdateien) und Gerber-Dateien.
-* `/3d-prints` - STL- oder STEP-Dateien für das Gehäuse.
+* `/3d-prints` - STL-, DXF- oder STEP-Dateien für das Gehäuse.
 * `/assets` - Bilder und Grafiken für die Dokumentation.
 
 
@@ -43,9 +43,9 @@ Hier findest du alle elektronischen Komponenten, die für den Aufbau der Platine
 | Status | Bauteil (Designator) | Beschreibung | Menge | Gehäuse / Footprint |
 | :---: | :--- | :--- | :---: | :--- |
 | 🧠 | **Arduino UNO (A1)** | Steuerzentrale (Mikrocontroller-Board) | 1 | `Arduino_UNO_R2` |
-| 🔌 | **DRV8825 (A2, A3)** | Schrittmotortreiber (Pololu-Breakout) | 2 | `Breakout-16_15.2x20.3mm` |
+| 🔌 | **DRV8825 (A2, A3)** | Schrittmotortreiber (Pololu-Breakout) | 1 | `Breakout-16_15.2x20.3mm` |
 | 🔋 | **L7805 (U1)** | 5V Linear-Spannungsregler | 1 | `TO-220-3_Vertical` |
-| ⚡ | **C_Polarized (C1, C2)**| Elektrolytkondensator (Stützkondensator) | 2 | `Radial_D8.0mm_P5.00mm` |
+| ⚡ | **C_Polarized (C1, C2)**| Elektrolytkondensator (Stützkondensator) | 1 | `Radial_D8.0mm_P5.00mm` |
 | 📟 | **LCD-Connector (J10)**| Buchsenleiste für das I2C-Display | 1 | `PinSocket_1x04_P2.54mm_V` |
 | 🌀 | **Lüfter (J11)** | Stiftleiste für den Gehäuselüfter | 1 | `PinHeader_1x02_P2.54mm_V` |
 | ⚙️ | **Microstepping (J2,J3,J6,J7)**| Jumper-Stiftleisten für Schrittauflösung | 4 | `PinHeader_1x03_P2.54mm_V` |
